@@ -134,8 +134,19 @@ El proyecto utiliza las siguientes dependencias de Maven:
 ```json
 
 {
-  "correo": "usuario@ejemplo.com",
-  "contraseña": "miContraseñaSegura"
+  "correo": "juan.perez@example.com",
+  "contrasena": "contrasena"
+}
+
+
+```
+
+**Ejemplo de respuesta**:
+
+```json
+
+{
+  "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJmb3JvaHViIiwic3ViIjoianVhbi5wZXJlekBleGFtcGxlLmNvbSIsImlkIjoxLCJleHAiOjE3MzczNTc3NTJ9.AcU4_MLHNbSHacZRYl5wrjvDS1VDYh6u0Tptb9FnzUY"
 }
 
 
